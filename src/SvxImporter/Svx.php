@@ -8,5 +8,4 @@ class Svx extends Importer
     {
         $this->file = $this->getFileContent($filePath);
     }
-    
 }
