@@ -9,7 +9,7 @@ abstract class Importer
     protected function getFileContent(string $filePath): string
     {
         $fileContent = file_get_contents($filePath);
-        // var_dump(gettype($fileContent));
+
         if(gettype($fileContent) === "boolean") {
             $this->stopWithErrorMessage($filePath);
         }
