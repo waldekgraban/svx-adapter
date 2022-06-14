@@ -1,11 +1,16 @@
 {
     "name": "waldekgraban/svx-adapter",
+    "description":"SVX file adapter to PHP objects",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Waldemar Graban",
             "email": "waldekgraban@gmail.com"
+        },
+        {
+            "name": "Krzysztof Grabania",
+            "email": "krzysztof@grabania.pl"
         }
     ],
     "repositories": [
